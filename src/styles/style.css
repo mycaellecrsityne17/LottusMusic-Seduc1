@@ -144,3 +144,44 @@ h1{
     font-family: var(--font-title);
     font-weight: 400;
 }
+
+.section-highlights{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    background-color: var( --color-LottusDusk);
+}
+
+.highlights-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.highlights-content h2{
+    color: var(--color-light);
+    font-size: var(--font-size-h2);
+    font-weight: 400;
+    font-family: var(--font-title);
+}
+
+.highlights-content p{
+    color: var(--color-light);
+    font-family: var(--font-body);
+    font-size: var(--font-size-body);
+    width: 494px;
+}
+
+.highlights-content nav{
+    display: flex;
+    gap: 10px;
+}
+
+
+.highlights-content .btn-primary{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
