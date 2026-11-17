@@ -3,7 +3,7 @@
 header{
     display: flex;
     justify-content: space-around;
-    align-items: center ;
+    align-items: center;
     background-color: var(--color-dark);
     padding: 15px 0;
     border-bottom: 2px solid var(--color-primary);
@@ -17,8 +17,8 @@ ul{
 
 li a{
     color: var(--color-light);
-    text-decoration: none;
-    font-family: var(--font-body);
+    text-decoration: none;   
+    font-family: var(--font-body); 
 }
 
 .btn-primary{
@@ -27,16 +27,16 @@ li a{
     border-radius: 10px;
     color: var(--color-light);
     text-decoration: none;
-    font-family: var(--font-body);
+    font-family: var(--font-body); 
 }
 
 .btn-outline{
     border: 1px solid var(--color-light);
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 10px; 
     color: var(--color-light);
     text-decoration: none;
-    font-family: var(--font-body);
+    font-family: var(--font-body); 
 }
 
 .main-content .btn-primary{
@@ -49,13 +49,13 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 90px;
+    gap: 90px;    
     background-color: var(--color-LottusNight);
     padding: 90px 0;
 }
 
 h1{
-    color:var(--color-light);
+    color: var(--color-light);
     font-size: var(--font-size-h1);
     font-family: var(--font-title);
     font-weight: 400;
@@ -63,7 +63,7 @@ h1{
 }
 
 .text-highlight{
-    color: var( --color-primary);
+    color: var(--color-primary);
 }
 
 .main-content p{
@@ -75,8 +75,8 @@ h1{
 
 .main-content{
     display: flex;
-    gap: 20px;
     flex-direction: column;
+    gap: 20px;
 }
 
 .main-content nav{
@@ -97,7 +97,7 @@ h1{
     font-weight: 400;
     color: var(--color-light);
     font-size: var(--font-size-h2);
-    font-family: var(--font-title);
+    font-family: var(--font-title);    
 }
 
 .section-statistics p{
@@ -108,4 +108,39 @@ h1{
 
 .section-statistics div{
     text-align: center;
+}
+
+.section-records{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    background-color: var(--color-LottusNight);
+    padding: 90px 0;
+}
+
+.section-records h2{
+    color: var(--color-light);
+    font-size: var(--font-size-h2);
+    font-family: var(--font-title);
+    font-weight: 400;
+}
+
+.records-container{
+    display: flex;
+    gap: 40px;
+}
+
+.records-card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;    
+}
+
+.records-card h3{
+    color: var(--color-light);
+    font-size: var(--font-size-h6);
+    font-family: var(--font-title);
+    font-weight: 400;
 }
